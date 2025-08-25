@@ -29,18 +29,34 @@ A **What-If scenario engine** lets business users simulate changes (e.g. Sales �
 
 ---
 
-## 🚀 Quick Start
+## ⚙️ Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Sassmirr/dealer-scope-dashboard.git
+   cd dealer-scope-dashboard
+   ```
+2. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # for Linux/Mac
+   venv\Scripts\activate      # for Windows
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1. Clone the repo
+## ▶️ Usage
+Run the application:
 ```bash
-git clone https://github.com/<yourname>/dealer-scope-dashboard.git
-cd dealer-scope-dashboard
+python app.py
+```
+Then open your browser and navigate to:
+```
+http://localhost:5000
+```
+*(If using Streamlit: `streamlit run app.py`)*
 
- 2. Install dependencies
-pip install -r requirements.txt
-
-3. Run
-streamlit run app.py
 
 🧠 How the Forecasting & What-If Engine Works
 
