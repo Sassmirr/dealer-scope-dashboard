@@ -31,7 +31,7 @@ A **What-If scenario engine** lets business users simulate changes (e.g. Sales Â
 
 ## ðŸš€ Quick Start
 
-### 1. Clone the repo
+1. Clone the repo
 ```bash
 git clone https://github.com/<yourname>/dealer-scope-dashboard.git
 cd dealer-scope-dashboard
