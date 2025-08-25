@@ -36,10 +36,10 @@ A **What-If scenario engine** lets business users simulate changes (e.g. Sales Â
 git clone https://github.com/<yourname>/dealer-scope-dashboard.git
 cd dealer-scope-dashboard
 
-### 2. Install dependencies
+ 2. Install dependencies
 pip install -r requirements.txt
 
-### 3. Run
+3. Run
 streamlit run app.py
 
 ðŸ§  How the Forecasting & What-If Engine Works
